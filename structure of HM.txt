@@ -1,0 +1,47 @@
+Hospital_Management/
+│
+├── data/
+│   ├── users.json
+│   ├── patients.json
+│   ├── doctors.json
+│   ├── appointments.json
+│   └── bills.json
+│
+└── hospital_management/
+    │
+    ├── __init__.py
+    ├── exceptions.py
+    │
+    ├── models/
+    │   ├── __init__.py
+    │   ├── patient.py
+    │   ├── doctor.py
+    │   ├── appointment.py
+    │   ├── billing.py
+    │   └── user.py
+    │
+    ├── services/
+    │   ├── __init__.py
+    │   ├── auth_service.py
+    │   ├── patient_service.py
+    │   ├── doctor_service.py
+    │   ├── appointment_service.py
+    │   └── billing_service.py
+    │
+    ├── storage/
+    │   ├── __init__.py
+    │   ├── file_handler.py
+    │   └── database.py
+    │
+    ├── ui/
+    │   ├── __init__.py
+    │   ├── login.py
+    │   ├── admin_menu.py
+    │   ├── doctor_menu.py
+    │   ├── receptionist_menu.py
+    │   └── patient_menu.py
+    │
+    └── util/
+        ├── __init__.py
+        ├── validators.py
+        └── helpers.py
