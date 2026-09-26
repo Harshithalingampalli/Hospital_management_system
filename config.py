@@ -4,7 +4,7 @@ from pathlib import Path
 
 APPLICATION_NAME="HOSPITAL MANAGEMENT SYSTEM"
 AAPLICATION_VERSION="v1.0"
-COLLAGE_NAME="ABC Hospital"
+HOSPITAL_NAME="ABC Hospital"
 
 
 ROOT_DIR=Path(__file__).resolve().parent
