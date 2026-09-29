@@ -1,6 +1,6 @@
-from hospital_management.ui.menus import patient_menu
-from hospital_management.services.patient_services import PatientService
-from hospital_management.storage.csv_store import CSVStore
+from hospital_mangement.ui.menu import patient_menu
+from hospital_mangement.services.patient_services import PatientService
+from hospital_mangement.storage.csvStore import CSVStore
 from config import PATIENT_FILE
 
 
