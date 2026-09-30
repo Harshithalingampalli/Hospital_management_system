@@ -50,8 +50,7 @@ def add_patient_menu(patient_service):
     address = input("Address: ")
     blood_group = input("Blood Group: ")
 
-    from hospital_management.models import Patient
-
+    from hospital_mangement.models import Patient
     try:
         patient = Patient(
             patient_id=patient_id,
