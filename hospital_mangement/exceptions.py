@@ -3,13 +3,13 @@ class HospitalManagementError(Exception):
     pass
 
 
-class PatientNotFoundError(HospitalManagementError):
-    """Raised when a patient is not found."""
+class DuplicateRecordError(HospitalManagementError):
+    """Raised when a duplicate record already exists."""
     pass
 
 
-class PatientAlreadyExistsError(HospitalManagementError):
-    """Raised when a patient already exists."""
+class RecordNotFoundError(HospitalManagementError):
+    """Raised when a record is not found."""
     pass
 
 
